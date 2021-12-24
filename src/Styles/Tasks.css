@@ -1,0 +1,54 @@
+.task-list {
+  list-style-type: none;
+  margin-top: .5rem;
+}
+
+.task-record {
+  color: gray;
+  display: flex;
+  background: white;
+  border-radius: 10px;
+  margin-bottom: .7rem;
+  padding: .7rem .5rem .3rem 1.5rem;
+  box-shadow: 0 0 10px rgb(207, 207, 207);
+}
+
+.task-item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  align-self: center;
+}
+
+.date-buttons-wrapper {
+  display: flex;
+}
+
+.task-date {
+  margin-right: .5rem;
+}
+
+.task-icon {
+  margin-right: .5rem;
+  color: rgb(126, 125, 125);
+}
+
+.edit-delete {
+  margin-top: -.3rem;
+}
+
+.upcoming-tasks {
+  margin-left: 1rem;
+  color: gray;
+}
+
+.completed-icon {
+  background: white;
+  color: green;
+}
+
+.completed-icon:hover {
+  background: green;
+  color: white;
+}

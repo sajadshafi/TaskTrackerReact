@@ -1,0 +1,85 @@
+@import url("https://cdn.syncfusion.com/ej2/material.css");
+
+.main-container {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 75vh;
+    margin-top: 2rem;
+    background-color: rgb(241, 241, 241);
+    width: 75%;
+    margin-left: 12%;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgb(216, 216, 216);
+    border-radius: 20px;
+    align-content: space-between;
+}
+
+.add-task-container {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 1rem;
+}
+
+.tasklist-container {
+    margin-top: 2rem;
+    padding: 0 2rem;
+    width: 90%;
+    margin-bottom: 1rem;
+}
+
+.e-datetime-wrapper {
+    flex: 2;
+    background: white !important;
+    border: 0 !important;
+    margin: 0 0 0 .5rem !important;
+    border-radius: 20px !important;
+    padding: 0 .5rem;
+    box-shadow: 0 0 10px rgb(207, 207, 207);
+}
+
+.e-icons, .e-clear-icon {
+    margin: 0 !important;
+}
+
+
+.e-input-focus:focus {
+    border-bottom: none !important;
+}
+
+.e-input-group:not(.e-float-icon-left):not(.e-float-input)::before,
+.e-input-group.e-control-wrapper:not(.e-float-icon-left):not(.e-float-input)::before,
+.e-input-group:not(.e-float-icon-left):not(.e-float-input)::after,
+.e-input-group.e-control-wrapper:not(.e-float-icon-left):not(.e-float-input)::after {
+    background: none;
+}
+
+::-moz-selection {
+    background: #5ef04b !important;
+  }
+  ::-webkit-selection {
+    background: #5ef04b !important;
+  }
+  ::selection {
+    background: #5ef04b !important;
+  }
+
+
+  .confirm-bg {
+    position: fixed;
+    display: none;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #202020;
+    opacity: 0.55;
+    overflow: hidden; /* disable scrolling*/
+    z-index: 2; /* higher than all other items, but lower than 
+      the confirm box*/
+  }
